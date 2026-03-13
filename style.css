@@ -1,0 +1,89 @@
+body {
+    background: darkgrey;
+}
+
+header {
+    background: rgb(44, 44, 44);
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+main {
+    background: white;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    border-radius: 20px;
+    width: 80%;
+}
+
+nav a {
+    color: white;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav a:hover {
+    background-color: #0096ff;
+    color: black;
+}
+
+h1 {
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+}
+
+iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+h2 {
+    text-align: center;
+}
+
+audio {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gallery {
+    display: inline-block;
+}
+
+.gallery_item {
+    margin: 5px;
+    border: 5px solid #ccc;
+    border-radius: 5px;
+    float: left;
+    width: 240px;
+}
+
+.gallery_item:hover {
+    border: 5px solid #1d1aca;
+}
+
+.gallery_item img {
+    width: 100%;
+    margin-top: 5px;
+    height: auto;
+}
+
